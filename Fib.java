@@ -1,7 +1,7 @@
 
 
 public class Fib {
-    public static void main(String[] args) {
+    public static void main(StrTask[] args) {
 
         int num1 = 0;
         int num2 = 1;
