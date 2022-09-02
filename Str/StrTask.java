@@ -1,3 +1,5 @@
+package Str;
+
 public class StrTask {
 
     public static void main(String[] args) {
@@ -23,6 +25,7 @@ public class StrTask {
         System.out.println(str5.trim());
         System.out.println(str5.toLowerCase());
         System.out.println(str5.toUpperCase());
+        System.out.println(str5.isEmpty());
 
     }
 }

@@ -1,7 +1,7 @@
-
+package Basics;
 
 public class Fib {
-    public static void main(StrTask[] args) {
+    public static void main(String[] args) {
 
         int num1 = 0;
         int num2 = 1;

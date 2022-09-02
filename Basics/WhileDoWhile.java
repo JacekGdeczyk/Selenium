@@ -1,5 +1,7 @@
+package Basics;
+
 public class WhileDoWhile {
-    public static void main(StrTask[] args) {
+    public static void main(String[] args) {
         int a = 100;
         /*while (a>50) {
             a-=5;

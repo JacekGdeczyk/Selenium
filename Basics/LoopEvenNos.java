@@ -1,7 +1,7 @@
-
+package Basics;
 
 public class LoopEvenNos {
-    public static void main(StrTask[] args) {
+    public static void main(String[] args) {
         for (int i = 1; i <= 100 ; i++) {
 
         if (i % 2 == 0){
