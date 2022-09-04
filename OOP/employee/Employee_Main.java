@@ -2,12 +2,20 @@ package OOP.employee;
 
 public class Employee_Main {
     public static void main(String[] args) {
-        Employee e = new Employee();
-        e.employeeName = "Jack";
-        e.employeeId = "1";
-        e.employeeSalary = "100";
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
 
-        //c1.displayDetails();
+        e1.employeeName = "Jack";
+        e1.employeeId = 1;
+        e1.employeeSalary = 100;
+
+        e1.empBonusDisplay();
+
+        e2.employeeName = "Herman";
+        e2.employeeId = 2;
+        e2.employeeSalary = 200;
+
+        e2.empBonusDisplay();
 
         /*Employee c2 = new Employee();
         c2.color = "Orange";
