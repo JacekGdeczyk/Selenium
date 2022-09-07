@@ -21,7 +21,7 @@ public class List_Iterator_Prog1 {
         while (itr.hasNext()) {
             if (itr.next()==null){
                 //itr.remove();
-                itr.set(0);
+                itr.set(0 );
             }
         }
 
